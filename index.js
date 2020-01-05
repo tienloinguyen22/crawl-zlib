@@ -11,10 +11,11 @@ const mongodbOptions = {
 mongoose.connect(mongodbConnectionString, mongodbOptions, async (error) => {
   if (error) {
     logger.error(error);
+    process.exit();
   } else {
     logger.info('TCL: Connect to mongodb success');
 
-    const initialUrl = 'https://b-ok.cc/book/3341450/b06734';
+    const initialUrl = 'https://b-ok.cc/book/1169427/ee2855';
     await crawler(initialUrl);
   }
 });
