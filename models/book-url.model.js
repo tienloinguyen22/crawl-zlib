@@ -5,6 +5,11 @@ const BookUrlSchema = new mongoose.Schema({
     type: String,
     unique: true,
   },
+  crawled: {
+    type: Boolean,
+    default: false,
+  },
+  errorMessage: String,
 }, {
   timestamps: true,
 });

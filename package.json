@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --max-old-space-size=8192 index.js | ./node_modules/.bin/bunyan"
+    "crawl:url": "node --max-old-space-size=8192 crawlUrl.js | ./node_modules/.bin/bunyan",
+    "crawl:detail": "node --max-old-space-size=8192 crawBookDetail.js | ./node_modules/.bin/bunyan"
   },
   "keywords": [],
   "author": "",
