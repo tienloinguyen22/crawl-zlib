@@ -13,6 +13,10 @@ const BookSchema = new mongoose.Schema({
   downloadUrl: String,
   referer: String,
   coverUrl: String,
+  downloadCount: {
+    type: Number,
+    default: 0,
+  },
 }, {
   timestamps: true,
 });
