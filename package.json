@@ -16,7 +16,7 @@
     "bunyan": "^1.8.12",
     "cheerio": "^1.0.0-rc.3",
     "he": "^1.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mongoose": "^5.8.4",
     "request": "^2.88.0",
     "request-promise": "^4.2.5"
